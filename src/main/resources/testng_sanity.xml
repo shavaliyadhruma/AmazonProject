@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<!--	<test name="Amazon > Signup Test">-->
+	<!--		<classes>-->
+	<!--			<class name="com.crm.qa.testcases.SignupPageTest"></class>-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+<!--	<test name="Amazon > Login Test">-->
+<!--		<classes>-->
+<!--			<class name="com.crm.qa.testcases.LoginPageTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Amazon > Order Tab Test">-->
+<!--		<classes>-->
+<!--			<class name="com.crm.qa.testcases.HomePageTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Amazon > Address Test">-->
+<!--		<classes>-->
+<!--			<class name="com.crm.qa.testcases.AddressPageTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--		<test name="Amazon > Payment Test">-->
+<!--			<classes>-->
+<!--				<class name="com.crm.qa.testcases.PaymentPageTest"></class>-->
+<!--			</classes>-->
+<!--		</test>-->
+
+
+	<test name="Amazon > Guest Search/Filter/Sort Test">
+		<classes>
+			<class name="com.crm.qa.testcases.GuestSearchPageTest"></class>
+		</classes>
+	</test>
+
+<!--	<test name="Amazon > Cart Test">-->
+<!--		<classes>-->
+<!--			<class name="com.crm.qa.testcases.CartPageTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Amazon > Security/Login Test">-->
+<!--		<classes>-->
+<!--			<class name="com.crm.qa.testcases.LoginSecurityPageTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Amazon &gt; Login Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Amazon > Login Test(failed) -->
+  <test thread-count="5" name="Amazon &gt; Order Tab Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="MenuBuyNotShipped"/>
+          <include name="MenuOrderTest"/>
+          <include name="setUp"/>
+          <include name="MenuBuyAgainTest"/>
+          <include name="loginCancelledOrders"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Amazon > Order Tab Test(failed) -->
+  <test thread-count="5" name="Amazon &gt; Address Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.AddressPageTest">
+        <methods>
+          <include name="AddNewAddressTest"/>
+          <include name="setUp"/>
+          <include name="VerifyAddAddressErrorTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.AddressPageTest -->
+    </classes>
+  </test> <!-- Amazon > Address Test(failed) -->
+  <test thread-count="5" name="Amazon &gt; Guest Search/Filter/Sort Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.GuestSearchPageTest">
+        <methods>
+          <include name="VerifySortingResult"/>
+          <include name="VerifySearchSuggestions"/>
+          <include name="tearDown"/>
+          <include name="VerifySearchResult"/>
+          <include name="setUp"/>
+          <include name="VerifyFilterResult"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GuestSearchPageTest -->
+    </classes>
+  </test> <!-- Amazon > Guest Search/Filter/Sort Test(failed) -->
+  <test thread-count="5" name="Amazon &gt; Cart Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.CartPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyCartTest"/>
+          <include name="setUp"/>
+          <include name="VerifyCartQtyTest"/>
+          <include name="VerifyCartCheckoutTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CartPageTest -->
+    </classes>
+  </test> <!-- Amazon > Cart Test(failed) -->
+  <test thread-count="5" name="Amazon &gt; Security/Login Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginSecurityPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyAddCardErrorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginSecurityPageTest -->
+    </classes>
+  </test> <!-- Amazon > Security/Login Test(failed) -->
+</suite> <!-- Failed suite [Amazon Test Automation Test Suite] -->
